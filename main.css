@@ -1,0 +1,15 @@
+body {
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,300&display=swap');
+  a hrev="/" class="logo" {
+   position: absolute;
+   height: 36px;
+   width: 85px;
+   left: 390px;
+   top: 29px;
+   border-radius: 0px;
+
+  }
+  
+}
+
+
