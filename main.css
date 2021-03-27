@@ -1,14 +1,32 @@
-body {
-  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,300&display=swap');
-  .logo {
-   position: absolute;
-   height: 36px;
-   width: 85px;
-   left: 390px;
-   top: 29px;
-   border-radius: 0px;
-  }
+.menu {
+  width: 380px;
+  padding: 10px 20px;
+  background: #fff;
+  border: 1px solid #d5d5d5;
+  box-shadow: 0 1px 3px 0 rgba(00, 00, 00, .2);
+  border-radius: 7px;
+  position: relative;
+  color: #5a5a5a;
+  font-family: 'Fira Sans', sans-serif;
+ }
   
-}
+ .title {
+  font-size: 21px;
+  margin-bottom: 10px;
+ }
+  
+ .occ {
+  font-weight: 300;
+  font-size: 18px;
+  margin-bottom: 10px;
+ }
+  
+ .time {
+  font-weight: 300;
+  font-size: 18px;
+ }
+
+  
+
 
 
