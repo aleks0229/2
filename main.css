@@ -1,9 +1,237 @@
+body {
+  font-family: Open Sans;
+  color:#FFFFFF;
+  font-size: 16px;
+  line-height: 1.42;
+  background: #001821;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.wrapper__content {
+  margin: 0 auto;
+  width: 1141px;
+}
+
+.header {
+  height: 120px;
+  position: relative;
+  margin-bottom: 131px;
+}
 .logo {
- position: absolute
- width: 85px;
- height: 36px;
- left: 390px;
- top: 29px;
- background: url (.logo)
+  display: block;
+  position: absolute;
+  left: 79px;
+  top: 29px;
+}
+.menu {
+  position: absolute;
+  top: 42px;
+  left: 277px;
+}
+
+.contacts {
+  position: absolute;
+  top: 26.64px;
+  right: 0;
+  text-align: right;
+}
+
+.menu__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 54px;
+}
+
+
+.menu__link {
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.contacts {
+  font-style: normal;
+}
+
+.contacts__phone {
+  text-decoration: none;
+  font-size: 26px;
+  margin-bottom: 2px;
+}
+
+.contacts__workschedule {
+  font-size: 13px;
+  text-decoration: underline;
+  color: #FFFFFF;
+}
+
+.hero__text-section {
+  width: 511px;
+}
+
+.hero__title {
+  font-size: 72px;
+  font-weight: bold;
+  line-height: 98px;
+  margin-bottom: 27.5px;
+}
+
+.hero__subtitle {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 20px;
+  margin-bottom: 33.5px;
+}
+
+.button {
+  background: #F5170E;
+  color: #FFFFFF;
+  font-weight: bold;
+  text-transform:uppercase;
+  text-decoration: none;
+  padding: 18px 40px;
+  border-radius: 35px
+}
+
+.tours {
+  width: 1140px;
+  margin-top: 264px;
+  margin-bottom: 127px;
+}
+
+.tours title--fire {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 49px;
+  margin-bottom: 51px;
+}
+
+.offers__item {
+  width: 362px;
+  margin-bottom: 127px;
+  background: #FFFFFF;
+  border-radius: 5px;
+  display: inline-block;
+  margin-right: 27px;
+}
+
+.offers__content {
+  padding: 33px 22px;
+  color: black;
+}
+
+.offers__title {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.offers__terms {
+  width: 271px;
+  display: inline-block;
+}
+
+.offers__feature-icon {
+  width: 26px;
+  height: 26px;
+}
+
+.offers__feature-text {
+  font-size: 16px;
+  line-height: 22px;
+  align-items: center;
+}
+
+.offers__text {
+  font-size: 14px;
+  line-height: 21px;
+  align-items: center;
+  color: black;
+}
+
+
+.news__item {
+  width: 557px;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.news__contents-pic {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+}
+
+.news__contents-text {
+  position:absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  padding: 25px 30px;
+  height: 394px;
+}
+
+.pagination {
+  text-align: center;
+}
+
+.pagination__info, .pagination__list {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.pagination__info {
+  margin-right: 26px;
+}
+
+.about__item {
+  content: "";
+  display:block;
+  width: 490px;
+  height: 505px;
+  background: url(/img/gates.png) center center / cover no-repeat;
+}
+
+.about__content {
+  background: black
+  padding: 70px 81px;
+}
+
+.about__title {
+  font-weight: bold;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.footer {
+	height: 92.64px;
+  position: relative;
 }
 
