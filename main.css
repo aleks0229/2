@@ -34,6 +34,9 @@ p {
   box-sizing: border-box;
 }
 
+.elephant-page-wrapper {
+  background: url(./img/fon1.png) center top no-repeat, url(./img/fon2.png) left bottom 165px no-repeat;
+}
 
 .wrapper__content {
   margin: 0 auto;
@@ -41,7 +44,7 @@ p {
 }
 
 .header {
-  height: 120px;
+  height: 123.36px;
   position: relative;
   margin-bottom: 131px;
 }
@@ -54,7 +57,7 @@ p {
 .menu {
   position: absolute;
   top: 42px;
-  left: 277px;
+  left: 264px;
 }
 
 .contacts {
@@ -274,11 +277,11 @@ p {
   width: 490px;
   height: 505px;
   left: 389px;
-  background: url(./2/img/gates.png) center center / cover no-repeat;
+  background: url(./img/gates.png) center center / cover no-repeat;
 }
 
 .about__content {
-  position: absolute;
+  position: relative;
   background: #202123;
   padding: 70px 81px;
   display: inline-block;
@@ -287,7 +290,7 @@ p {
   height: 455px;
   left: 743px;
   border-radius: 5px;
-  background: url(./2/img/mountains.png) center center / cover no-repeat;
+  background: url(./img/mountains.png) center center / cover no-repeat;
   margin-top: 100px;
   margin-bottom: 53px;
 }
@@ -311,5 +314,23 @@ p {
 }
 
 .footer {
-  
+  position: relative;
+  height: 92.64px;
+  width: 1142px;
+  margin-bottom: 65px;
+  left: 389px;
+}
+
+.socials {
+  width: 174px;
+  height: 36px;
+  margin-left: 618px;
+  margin-bottom: 1px;
+}
+
+.socials__link {
+  display: inline-block;
+  text-decoration: none;
+  width: 36px;
+  height: 36px;
 }
