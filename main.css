@@ -274,7 +274,7 @@ p {
   width: 490px;
   height: 505px;
   left: 389px;
-  background: url(./img/gates.png) center center / cover no-repeat;
+  background: url(./2/img/gates.png) center center / cover no-repeat;
 }
 
 .about__content {
@@ -287,7 +287,7 @@ p {
   height: 455px;
   left: 743px;
   border-radius: 5px;
-  background: url(./img/mountains.png) center center / cover no-repeat;
+  background: url(./2/img/mountains.png) center center / cover no-repeat;
   margin-top: 100px;
   margin-bottom: 53px;
 }
