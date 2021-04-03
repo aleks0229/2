@@ -188,7 +188,7 @@ p {
 .offers__text {
   color: #303030;
   margin-bottom: 24.5px;
-  text-align: center;
+  text-align:left
 }
 
 .news {
