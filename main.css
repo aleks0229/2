@@ -38,7 +38,7 @@ p {
   background: url(./img/fon1.png) center top no-repeat, url(./img/fon2.png) left bottom 165px no-repeat;
 }
 
-.wrapper__content {
+.container {
   margin: 0 auto;
   width: 1141px;
 }
@@ -95,18 +95,18 @@ p {
   color: #FFFFFF;
 }
 
-.hero__text-section {
+.hello {
   width: 511px;
 }
 
-.hero__title {
+.hello__title {
   font-size: 72px;
   font-weight: bold;
   line-height: 98px;
   margin-bottom: 27.5px;
 }
 
-.hero__subtitle {
+.hello__subtitle {
   font-size: 18px;
   font-weight: normal;
   line-height: 20px;
@@ -124,16 +124,15 @@ p {
   margin-bottom: 246px;
 }
 
-.container {
-  margin-top: 246px;
+.tours {
   margin-bottom: 127px;
-  width: 1140px;
 }
 
 .tours__title--fire {
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 51px;
+  margin-top: 246px;
 }
 
 .offers__item {
@@ -190,6 +189,7 @@ p {
   margin-bottom: 24.5px;
   text-align:left
 }
+
 
 .news {
   margin-bottom: 53px;
