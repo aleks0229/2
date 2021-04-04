@@ -38,16 +38,19 @@ p {
   background: url(./img/fon1.png) center top no-repeat, url(./img/fon2.png) left bottom 165px no-repeat;
 }
 
-.container {
-  margin: 0 auto;
-  width: 1141px;
-}
 
 .header {
   height: 123.36px;
   position: relative;
   margin-bottom: 131px;
 }
+
+.container {
+  margin: 0 auto;
+  width: 1141px;
+}
+
+
 .logo {
   display: block;
   position: absolute;
@@ -95,9 +98,11 @@ p {
   color: #FFFFFF;
 }
 
+
 .hello {
   width: 511px;
 }
+
 
 .hello__title {
   font-size: 72px;
@@ -282,13 +287,12 @@ p {
 
 .about__content {
   position: relative;
-  background: #202123;
   padding: 70px 81px;
   display: inline-block;
   vertical-align: top;
   width: 785px;
   height: 455px;
-  left: 743px;
+  left: 354px;
   border-radius: 5px;
   background: url(./img/mountains.png) center center / cover no-repeat;
   margin-top: 100px;
@@ -314,18 +318,56 @@ p {
 }
 
 .footer {
+  height: 123.36px;
   position: relative;
-  height: 92.64px;
-  width: 1142px;
-  margin-bottom: 65px;
-  left: 389px;
+  margin-bottom: 57.36px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1141px;
+}
+
+
+.logo {
+  display: block;
+  position: absolute;
+  left: 79px;
+  top: 29px;
+}
+.menu {
+  position: absolute;
+  top: 42px;
+  left: 264px;
+}
+
+.contacts {
+  position: absolute;
+  top: 26.64px;
+  right: 0;
+  text-align: right;
+}
+
+.menu__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 54px;
+}
+
+
+.menu__link {
+  font-size: 14px;
+  text-decoration: none;
 }
 
 .socials {
-  width: 174px;
   height: 36px;
-  margin-left: 618px;
-  margin-bottom: 1px;
+  width: 174px
+  left: 274px;
+}
+
+.contacts {
+  font-style: normal;
 }
 
 .socials__link {
@@ -334,3 +376,16 @@ p {
   width: 36px;
   height: 36px;
 }
+
+.contacts__phone {
+  text-decoration: none;
+  font-size: 26px;
+  margin-bottom: 57.36px;
+}
+
+.contacts__workschedule {
+  font-size: 13px;
+  text-decoration: underline;
+  color: #FFFFFF;
+}
+
