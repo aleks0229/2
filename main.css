@@ -334,8 +334,10 @@ p {
 }
 
 .socials {
+  position: absolute;
   top: 53px;
   right: 265px;
+  margin-bottom: 3.64px;
 }
 
 .socials__link {
