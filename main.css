@@ -390,9 +390,8 @@ p {
 }
 
 .socials {
-  width: 174px;
-  height: 36px;
-  left: 274px;
+  top: 49px;
+  right: 265px;
 }
 
 .socials__link {
