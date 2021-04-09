@@ -41,6 +41,8 @@ p {
 
 .header {
   height: 123.36px;
+  width: 1141px;
+  left: 190px;
   position: relative;
   margin-bottom: 131px;
 }
@@ -95,7 +97,7 @@ p {
 .contacts__workschedule {
   font-size: 13px;
   text-decoration: underline;
-  color: #FFFFFF;
+  color: #534444;
 }
 
 
@@ -279,22 +281,23 @@ p {
   font-weight: 700;
   line-height: 32px;
 }
+
 .about {
+  vertical-align: top;
   width: 1139px;
   height: 552px;
-  left: 389px;
   margin-bottom: 102px;
+  left: 389px;
 }
 
 
 .about:before {
   content: "";
   display: inline-block;
-  vertical-align: top;
-  position: relative;
+  position: absolute;
   width: 490px;
   height: 505px;
-  left: 389px;
+  left: 270px;
   background: url(./img/gates.png);
 }
 
@@ -303,9 +306,9 @@ p {
   padding: 70px 81px;
   display: inline-block;
   vertical-align: top;
-  width: 785px;
+  width: 778px;
   height: 455px;
-  left: 743px;
+  left: 623px;
   border-radius: 5px;
   background: url(./img/mountains.png);
   margin-top: 100px;
@@ -333,13 +336,14 @@ p {
 .footer {
   height: 146px;
   position: relative;
+  width: 1141px;
+  left: 190px;
 }
 
 .socials {
   position: absolute;
-  top: 53px;
+  top: 33px;
   right: 265px;
-  margin-bottom: 3.64px;
 }
 
 .socials__link {
