@@ -376,12 +376,6 @@ p {
   font-style: normal;
 }
 
-.socials__link {
-  display: inline-block;
-  text-decoration: none;
-  width: 36px;
-  height: 36px;
-}
 
 .contacts__phone {
   text-decoration: none;
@@ -393,5 +387,18 @@ p {
   font-size: 13px;
   text-decoration: underline;
   color: #FFFFFF;
+}
+
+.socials {
+  width: 174px;
+  height: 36px;
+  left: 274px;
+}
+
+.socials__link {
+  display: inline-block;
+  text-decoration: none;
+  width: 36px;
+  height: 36px;
 }
 
