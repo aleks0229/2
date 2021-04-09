@@ -331,73 +331,25 @@ p {
 .footer {
   height: 146px;
   position: relative;
-  margin-bottom: 57.36px;
-}
-
-.container {
-  margin: 0 auto;
-  width: 1141px;
-}
-
-
-.logo {
-  display: block;
-  position: absolute;
-  left: 79px;
-  top: 29px;
-}
-.menu {
-  position: absolute;
-  top: 42px;
-  left: 264px;
-}
-
-.contacts {
-  position: absolute;
-  top: 26.64px;
-  right: 0;
-  text-align: right;
-}
-
-.menu__item {
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 54px;
-}
-
-
-.menu__link {
-  font-size: 14px;
-  text-decoration: none;
-}
-
-
-.contacts {
-  font-style: normal;
-}
-
-
-.contacts__phone {
-  text-decoration: none;
-  font-size: 26px;
-  margin-bottom: 57.36px;
-}
-
-.contacts__workschedule {
-  font-size: 13px;
-  text-decoration: underline;
-  color: #FFFFFF;
 }
 
 .socials {
-  top: 49px;
+  top: 53px;
   right: 265px;
 }
 
 .socials__link {
   display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
   text-decoration: none;
   width: 36px;
   height: 36px;
 }
+
+.socials__link:last-child {
+  margin: 0px;
+}
+
+
 
